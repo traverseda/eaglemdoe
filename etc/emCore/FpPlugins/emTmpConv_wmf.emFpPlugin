@@ -1,0 +1,18 @@
+#%rec:emFpPlugin%#
+
+FileTypes = {
+ ".wmf"
+}
+Priority = 0.5
+Library = "emTmpConv"
+Function = "emTmpConvFpPluginFunc"
+Properties = {
+ {
+  Name="OutFileEnding"
+  Value=".svg"
+ }
+ {
+  Name="Command"
+  Value="exec wmf2svg -o \"$OUTFILE\" \"$INFILE\""
+ }
+}
