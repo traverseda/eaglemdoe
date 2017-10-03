@@ -3,5 +3,4 @@ script: ./make.pl build
 addons:
   apt:
     packages:
-    - cmake
-    - time
+    - xine-lib
