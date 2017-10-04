@@ -3,4 +3,6 @@ script: ./make.pl build
 addons:
   apt:
     packages:
-    - xine-lib
+    - libxine-dev
+    - libxine1
+    - libxine1-all-plugins
